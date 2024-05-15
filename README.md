@@ -1,4 +1,4 @@
-# Project Title
+# TEXT-MAGIC APP
 
 Text-Magic based on Reactjs
 
