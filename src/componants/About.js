@@ -43,7 +43,7 @@ export default function About(props) {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              Features/01
             </button>
           </h2>
           <div
@@ -59,14 +59,14 @@ export default function About(props) {
                 backgroundColor: props.mode === "dark" ? "#042743" : "white",
               }}
             >
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Efficient Text Utility Tool for{" "}
+              <strong>
+                converting text to upper case, lower case, copying text, and
+                clearing text.
+              </strong>{" "}
+              Streamlines text manipulation tasks with easy-to-use functions,
+              enhancing productivity and ensuring consistent text formatting.
+              Ideal for users seeking quick and reliable text transformations.
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function About(props) {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+              Features/02
             </button>
           </h2>
           <div
@@ -100,14 +100,16 @@ export default function About(props) {
                 backgroundColor: props.mode === "dark" ? "#042743" : "white",
               }}
             >
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Efficient{" "}
+              <strong>
+                {" "}
+                Text Utility Tool for counting words, letters, and estimating
+                reading time. Additionally, it offers features to copy and clear
+                text.{" "}
+              </strong>{" "}
+              Streamlines text manipulation and analysis, enhancing productivity
+              and ensuring consistent text formatting. Ideal for users seeking
+              quick and reliable text insights and transformations.
             </div>
           </div>
         </div>
@@ -122,7 +124,7 @@ export default function About(props) {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Accordion Item #3
+              Features/03
             </button>
           </h2>
           <div
@@ -138,14 +140,8 @@ export default function About(props) {
                 backgroundColor: props.mode === "dark" ? "#042743" : "white",
               }}
             >
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Effieciently{" "}
+              <strong>Enable dark to light and light to dark mode</strong>
             </div>
           </div>
         </div>
